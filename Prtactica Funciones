@@ -1,0 +1,6 @@
+#Escribir una función que reciba una muestra de números en una lista y devuelva su medida.
+def numeros(*num):
+          print(len(num))
+          for i in num:
+            print(i)
+print(numeros(10, 20 , 30 , 40 , 50))
